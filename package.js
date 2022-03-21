@@ -1,7 +1,7 @@
 Package.describe({
-  name: 'biz-ssr',
+  name: 'jhunlouiegonzales:biz-ssr',
   version: '0.0.1',
-  summary: 'An alternative version for meteorhacks:ssr library and compatible with the latest version of MeteorJS.',
+  summary: 'Server Side Rendering for Meteor with Blaze',
   git: 'https://github.com/junlouiegonzales/biz-ssr',
   documentation: 'README.md'
 });
@@ -21,6 +21,6 @@ Package.onUse(function(api) {
 Package.onTest(function(api) {
   api.use('ecmascript');
   api.use('tinytest');
-  api.use('biz-ssr');
+  api.use('jhunlouiegonzales:biz-ssr');
   api.mainModule('biz-ssr-tests.js');
 });
